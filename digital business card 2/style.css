@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 550px;
+    height: 870px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background: #23252C;
+    font-family: Inter, sans-serif;
+   
+}
+
+.header-image {
+    border-radius: 10px 10px 0px 0px;
+    width: 317px;
+    height: 317px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+main {
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background: #1A1B21;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.initro {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    padding-top: 0;  
+    
+}
+.name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 0;
+    margin-bottom: 0;
+    
+}
+.developer {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    
+    padding: 0;
+    margin-top: 7px;
+}
+.website {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    padding: 0;
+    margin-top: 8px;
+    margin-bottom: 23px;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 247px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+     
+}
+.btn img {
+    width: 12.8px;
+    height: 9.6px;
+}
+h2 {
+    width: 242.71px;
+    height: 21px;
+    left: 151px;
+    top: 535px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.facts p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+h3 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    width: 242.71px;
+    height: 21px;
+    left: 151px;
+    top: 649px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: center;
+    width: 317px;
+    height: 64px;
+    
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+.footer-images img {
+    
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    
+}
